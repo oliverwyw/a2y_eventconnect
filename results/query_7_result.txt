@@ -4,12 +4,6 @@ Date & Time: 2022-12-03T19:30
 URL: https://ums.org/performance/handels-messiah-2022
 Description: Handel composed his oratorio Messiah over the course of a single month in 1741, six months before its triumphant premiere at a new concert hall in Dublin. Nearly 300 years later, Handelâs Messiah fills Hill Auditorium with its ravishing beauty brought to life by friends and colleagues from the community. Music director Scott Hanoian conducts the UMS Choral Union and the Ann Arbor Symphony Orchestra in this annual holiday tradition.
 
-City of Birmingham Symphony Orchestra
-Location: Hill Auditorium
-Date & Time: 2022-10-19T19:30
-URL: https://ums.org/performance/city-of-birmingham-symphony-orchestra
-Description: Her tenure has been one of unqualified success, generating excitement among live audiences and critics worldwide. She brings the CBSO to Ann Arbor as part of a limited US tour with cellist Sheku Kanneh-Mason performing Elgarâs Cello Concerto, composed in the aftermath of World War I. The orchestra had a close association with Elgar, who conducted the ensembleâs very first concert over a century ago, in 1920. The program also includes an abbreviated orchestral rendering of Thomas AdÃ¨sâs third opera, based on Luis BuÃ±uelâs 1962 surreal film about a collection of society characters who find themselves inexplicably trapped together at a post-opera party. The CBSO âbrilliantly captured the profound, uncanny disquiet that makes [the film] so unforgettable.â (Bachtrack)
-
 Berliner Philharmoniker
 Location: Hill Auditorium
 Date & Time: 2022-11-18T20:00
@@ -21,6 +15,12 @@ Location: Hill Auditorium
 Date & Time: 2023-03-17T20:00
 URL: https://ums.org/performance/daniel-hope-with-the-zurich-chamber-orchestra
 Description: After their UMS debut in November 2019, which featured Vivaldiâs Four Seasons paired with a new take on the work by Max Richter, violinist Daniel Hope returns with the Zurich Chamber Orchestra in a new program that takes a deep dive into the rich repertoire of American music, exploring its roots and distinctive qualities.âWe know a piece is from America the moment we hear it,â Hope says. âBut what makes it sound American?â With arrangements by Paul Bateman for solo violin with various classical and jazz combinations, this concert will explore some familiar and unfamiliar tunes by a variety of American composers.
+
+City of Birmingham Symphony Orchestra
+Location: Hill Auditorium
+Date & Time: 2022-10-19T19:30
+URL: https://ums.org/performance/city-of-birmingham-symphony-orchestra
+Description: Her tenure has been one of unqualified success, generating excitement among live audiences and critics worldwide. She brings the CBSO to Ann Arbor as part of a limited US tour with cellist Sheku Kanneh-Mason performing Elgarâs Cello Concerto, composed in the aftermath of World War I. The orchestra had a close association with Elgar, who conducted the ensembleâs very first concert over a century ago, in 1920. The program also includes an abbreviated orchestral rendering of Thomas AdÃ¨sâs third opera, based on Luis BuÃ±uelâs 1962 surreal film about a collection of society characters who find themselves inexplicably trapped together at a post-opera party. The CBSO âbrilliantly captured the profound, uncanny disquiet that makes [the film] so unforgettable.â (Bachtrack)
 
 Chineke! Orchestra
 Location: Hill Auditorium
