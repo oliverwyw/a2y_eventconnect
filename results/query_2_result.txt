@@ -1,14 +1,14 @@
-AUT BAR REUNION DANCE PARTY
-Location: 301 N. Fifth Avenue, Ann Arbor, MI 48104
-Date & Time: 7:00 PM to 10:00 PM April 22, 2023
-URL: https://www.annarbor.org/event/aut-bar-reunion-dance-party/11905
-Description: Missing Aut Bar?Â  Reunion Dance Party for the Aut Bar which sadly closed in 2020. Come enjoy drinks, dancing, food, community, and music spun by regular Aut Bar DJ MystaMark! $10 Cover.
-
 TURN IT AUT DANCE PARTY
 Location: 301 North 5th Avenue, Ann Arbor, MI 48104
 Date & Time: 7:00 PM to 10:00 PM April 22, 2023
 URL: https://www.annarbor.org/event/turn-it-aut-dance-party/12121
 Description: Come enjoy drinks, dancing, food, community, and music spun by \Aut Bar regular DJ MystaMark! $10 Cover.
+
+AUT BAR REUNION DANCE PARTY
+Location: 301 N. Fifth Avenue, Ann Arbor, MI 48104
+Date & Time: 7:00 PM to 10:00 PM April 22, 2023
+URL: https://www.annarbor.org/event/aut-bar-reunion-dance-party/11905
+Description: Missing Aut Bar?Â  Reunion Dance Party for the Aut Bar which sadly closed in 2020. Come enjoy drinks, dancing, food, community, and music spun by regular Aut Bar DJ MystaMark! $10 Cover.
 
 Thunder Over Michigan Air Show
 Location: 801 Willow Run Airport, Ypsilanti, MI 48198
@@ -22,12 +22,6 @@ Date & Time: 10:00 AM & 4:00 PM August 12, 2023 - August 13, 2023
 URL: https://www.ypsireal.com/event/thunder-over-michigan-air-show/11539
 Description: Two days, four incredible shows!Â  The Thunder over Michigan Air Show, considered one of America's leading air shows, is back on August 12 & 13, 2023! Check out amazing aircraft plus the dozens of static and flight teams!Â  This is a Drive-up Air Show. Pack your car up with the family and lawn chairs to enjoy the show as a drive-in style setting. Food and non-alcoholic drinks are also permitted.Â  The Thunder Over Michigan Air Show has long been regarded as the best "warbird" show in America and was recently selected to join the Grunt Style Air Show Majors, the air show industryâs premier tour showcasing a collection of Americaâs most prestigious air shows. Tickets are sold by drive-in car pass only, meaning you will only need to pay 1 price per car (all passengers), not per person. Bring your friends!Â Â  Please visit the website for more information and to purchase tickets.
 
-Tru Klassick Presents: Bridging the Gap Hip Hop Night
-Location: 215 N Main St , Ann Arbor, MI 48104
-Date & Time: 9:30 PM
-URL: https://www.annarbor.org/event/tru-klassick-presents%3a-bridging-the-gap-hip-hop-night/10779
-Description: Join us the first Saturday of the month for Hip Hop Night, Tru Klassick Presents: Bridging the Gap.  Open cypher to begin and end the show $8 Hennessy drinks for first two hours
-
 Newton House Rules: Game Night
 Location: 220 South Huron Street, Ypsilanti, MI 48197
 Date & Time: 7:00 PM to 10:00 PM April 20, 2023 - June 15, 2023
@@ -39,6 +33,12 @@ Location: 220 E Ann StÂ , Ann Arbor, MI 48104
 Date & Time: 6:30 PM to 9:30 PM April 21, 2023
 URL: https://www.annarbor.org/event/adults-only-trivia-night/12158
 Description: Test your knowledge about all things wildânative species, exotic habitats, fantastical fauna, and everything in between. They'll have drinks, hands-on activities, a chance to observe wildlife up close, and a variety of trivia for you at this 21+ experience. Your ticket will include one alcoholic or non-alcoholic beverage and light snacks. Additional beverages are available for purchase. Pre-registration is required. Visit website for more info
+
+Tru Klassick Presents: Bridging the Gap Hip Hop Night
+Location: 215 N Main St , Ann Arbor, MI 48104
+Date & Time: 9:30 PM
+URL: https://www.annarbor.org/event/tru-klassick-presents%3a-bridging-the-gap-hip-hop-night/10779
+Description: Join us the first Saturday of the month for Hip Hop Night, Tru Klassick Presents: Bridging the Gap.  Open cypher to begin and end the show $8 Hennessy drinks for first two hours
 
 Newton House Rules: Game Night
 Location: 220 South Huron Street, Ypsilanti, MI 48197

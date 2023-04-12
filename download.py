@@ -31,6 +31,35 @@ def removeSGML(targetStr):
 
 
 
+def get_stamps_text(text, link, counter):
+    with open('crawled_pages/stamps' + str(counter) +'.txt', 'w') as file:
+      soup = BeautifulSoup(text, 'html.parser')
+      js = soup.find("script", {"type": "application/ld+json"}).string.strip()
+      json_obj = json.loads(js)['@graph'][0]
+      
+      file.write(link)
+      file.write(soup.find('title').string.strip() + '\n')
+      body_text = ' '.join([str(tag) for tag in soup.find_all('p')])
+      body_text = removeSGML(body_text)
+      
+
+      try:
+        file.write(json_obj["location"]["address"].replace('\n', ' ') + '\n')
+        file.write(json_obj["startDate"].replace('\n', ' ')+'\n')
+        file.write(json_obj["description"].replace('\n', ' ') + '\n')
+        body_text += ' ' + soup.find('title').string.strip() + ' ' + \
+            json_obj["description"]
+        body_text = body_text.replace('\n', ' ').replace(
+            '\r', ' ').replace('\t', ' ')
+        file.write(body_text)
+      except:
+        os.remove('crawled_pages/stamps' + str(counter) + '.txt')
+        counter -= 1
+        # print("ERROR", "No info found for ", link)
+      return counter
+
+
+
 # ----------------------- Functions -----------------------
 
 def download_aa():
@@ -137,6 +166,7 @@ def download_yp():
 
 
 def download_stamps():
+    """by Freddie"""
     counter = 0
     with open('crawled_links.txt', 'r') as f:
       links = f.readlines()
@@ -147,35 +177,6 @@ def download_stamps():
           
           counter = get_stamps_text(r.text, link, counter)
           counter += 1
-
-
-
-def get_stamps_text(text, link, counter):
-    with open('crawled_pages/stamps' + str(counter) +'.txt', 'w') as file:
-      soup = BeautifulSoup(text, 'html.parser')
-      js = soup.find("script", {"type": "application/ld+json"}).string.strip()
-      json_obj = json.loads(js)['@graph'][0]
-      
-      file.write(link)
-      file.write(soup.find('title').string.strip() + '\n')
-      body_text = ' '.join([str(tag) for tag in soup.find_all('p')])
-      body_text = removeSGML(body_text)
-      
-
-      try:
-        file.write(json_obj["location"]["address"].replace('\n', ' ') + '\n')
-        file.write(json_obj["startDate"].replace('\n', ' ')+'\n')
-        file.write(json_obj["description"].replace('\n', ' ') + '\n')
-        body_text += ' ' + soup.find('title').string.strip() + ' ' + \
-            json_obj["description"]
-        body_text = body_text.replace('\n', ' ').replace(
-            '\r', ' ').replace('\t', ' ')
-        file.write(body_text)
-      except:
-        os.remove('crawled_pages/stamps' + str(counter) + '.txt')
-        counter -= 1
-        print("ERROR", "No info found for ", link)
-      return counter
 
 
 
@@ -270,8 +271,8 @@ def download_smtd():
 
 # ----------------------- Main -----------------------
 if __name__ == "__main__":
-    # download_aa()
-    # download_yp()
+    download_aa()
+    download_yp()
     download_stamps()
-    # dowload_ums()
-    # download_smtd()
+    dowload_ums()
+    download_smtd()

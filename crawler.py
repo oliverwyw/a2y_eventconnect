@@ -1,6 +1,5 @@
-from bs4 import BeautifulSoup
 import os
-import re
+from bs4 import BeautifulSoup
 
 # ----------------------- Constant -----------------------
 
@@ -85,13 +84,7 @@ if __name__ == "__main__":
               clean_url.append(url)
 
               
-        # "maizepages.umich.edu/event"
-        # yuxin
-        # elif 'maizepage' in file_name:
-        #   url = link.get('href')
-        #   if url and "/event/" in url and url not in clean_url:
-        #     # clean_url.append("https://maizepages.umich.edu" + link.get('href'))
-        #     clean_url.append(url)
+        
         # "stamps.umich.edu/events"
         # freddiew
         elif 'stamp' in file_name:
