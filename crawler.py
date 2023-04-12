@@ -61,7 +61,11 @@ if __name__ == "__main__":
 
   clean_url = []
 
-  for file_name in os.listdir("roots"):
+  # sort roots by file name
+  roots = os.listdir("roots")
+  roots.sort()
+
+  for file_name in roots:
     with open("roots/" + file_name, 'r', encoding="ISO-8859-1") as f:
       html_text = f.read()
       soup = BeautifulSoup(html_text, 'html.parser')
