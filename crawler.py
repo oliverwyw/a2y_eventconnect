@@ -119,5 +119,5 @@ if __name__ == "__main__":
           print('ERROR: unidentified file name:', file_name)
           
   with open("crawled_links.txt", "w") as f:
-    for url in set(clean_url):
+    for url in sorted(set(clean_url)):
       f.write(url + "\n")
