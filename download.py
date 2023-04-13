@@ -2,7 +2,6 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from crawler import HEADERS
-# from tqdm import tqdm
 import re
 import json
 
@@ -72,7 +71,6 @@ def download_aa():
 
         count = 1
         for link in aa_links:
-        # for link in tqdm(aa_links):
             link = link.strip()
             # if 'annarbor.org' in link:
             r = requests.get(link, headers = HEADERS, timeout = 2)
@@ -124,7 +122,6 @@ def download_yp():
 
         count = 1
         for link in yp_links:
-        # for link in tqdm(yp_links):
             link = link.strip()
             r = requests.get(link, headers = HEADERS, timeout = 2)
             soup = BeautifulSoup(r.text, 'html.parser')
